@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GheshinMerDact - Gioco</title>
+    <link rel="icon" type="image/png" href="immagini/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #0d0d0d;
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 1rem;
+        }
+        nav {
+            background: #1a1a1a;
+            padding: 1rem 0;
+            text-align: center;
+            margin-bottom: 2rem;
+            border-radius: 0.75rem;
+            width: 100%;
+            max-width: 1200px;
+        }
+        nav a {
+            color: white;
+            margin: 0 1.25rem;
+            font-weight: 700;
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #fbbc05;
+        }
+        main.game-wrapper {
+            max-width: 1200px;
+            width: 100%;
+            text-align: center;
+            background: rgba(255 255 255 / 0.05);
+            padding: 2rem 1rem;
+            border-radius: 1rem;
+            box-shadow: 0 0 15px rgb(251 188 5 / 0.3);
+            margin-bottom: 10px;
+        }
+        main.game-wrapper h1 {
+            font-size: 2.3rem;
+            margin-bottom: 0.5rem;
+            color: #fbbc05;
+            text-shadow: 1px 1px 3px #000;
+        }
+        main.game-wrapper p.instructions {
+            font-size: 1.5rem;
+            color: #ddd;
+            margin-bottom: 1.5rem;
+        }
+        .game-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            max-width: 600px;
+            margin: 0 auto 1.5rem;
+        }
+        .game-cell {
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            height: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            cursor: pointer;
+            user-select: none;
+            transition: background-color 0.3s ease;
+        }
+        .game-cell.flipped,
+        .game-cell.matched {
+            background-color: #fbbc05;
+            cursor: default;
+        }
+        .status {
+            font-size: 1.3rem;
+            color: #fbbc05;
+            font-weight: 700;
+        }
+        footer {
+            background-color: #111;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+            color: #aaa;
+            border-radius: 0.5rem;
+            width: 100%;
+            max-width: 1200px;
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index">Home</a>
+        <a href="senza-senso">Senza Senso</a>
+        <a href="gioco">Gioco</a>
+    </nav>
+    <main class="game-wrapper">
+        <h1>Gioco</h1>
+        <p class="instructions">Trova tutte le coppie nel minor tempo possibile!</p>
+        <div class="game-grid" id="gameBoard"></div>
+        <p class="status" id="gameStatus"></p>
+    </main>
+    <footer>
+        <p>&copy; 2025 GheshinMerDact. Tutti i diritti riservati.</p>
+    </footer>
+    <script>
+        const emojis = ['😀','🐱','🌵','🍕','🚀','🎉','⚽','🎵'];
+        let gameGrid = [...emojis, ...emojis];
+        let flippedCards = [];
+        let matchedPairs = 0;
+        const gameBoard = document.getElementById('gameBoard');
+        const statusText = document.getElementById('gameStatus');
+
+        function shuffle(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+        }
+
+        function createGrid() {
+            shuffle(gameGrid);
+            gameBoard.innerHTML = '';
+            for (let i = 0; i < gameGrid.length; i++) {
+                const cell = document.createElement('div');
+                cell.classList.add('game-cell');
+                cell.dataset.index = i;
+                cell.dataset.emoji = gameGrid[i];
+                cell.textContent = '?';
+                cell.addEventListener('click', onCardClick);
+                gameBoard.appendChild(cell);
+            }
+        }
+
+        function onCardClick(e) {
+            const cell = e.currentTarget;
+            if (flippedCards.length >= 2 || cell.classList.contains('flipped') || cell.classList.contains('matched')) return;
+            flipCard(cell);
+            flippedCards.push(cell);
+            if (flippedCards.length === 2) {
+                checkMatch();
+            }
+        }
+
+        function flipCard(cell) {
+            cell.textContent = cell.dataset.emoji;
+            cell.classList.add('flipped');
+        }
+
+        function unflipCards() {
+            flippedCards.forEach(cell => {
+                cell.textContent = '?';
+                cell.classList.remove('flipped');
+            });
+            flippedCards = [];
+        }
+
+        function checkMatch() {
+            const [first, second] = flippedCards;
+            if (first.dataset.emoji === second.dataset.emoji) {
+                first.classList.add('matched');
+                second.classList.add('matched');
+                matchedPairs++;
+                flippedCards = [];
+                if (matchedPairs === emojis.length) {
+                    statusText.textContent = 'Complimenti, hai trovato tutte le coppie!';
+                } else {
+                    statusText.textContent = `Coppie trovate: ${matchedPairs}`;
+                }
+            } else {
+                statusText.textContent = 'Non corrispondono, riprova!';
+                setTimeout(() => {
+                    unflipCards();
+                    statusText.textContent = matchedPairs > 0 ? `Coppie trovate: ${matchedPairs}` : '';
+                }, 1000);
+            }
+        }
+
+        createGrid();
+    </script>
+</body>
+</html>

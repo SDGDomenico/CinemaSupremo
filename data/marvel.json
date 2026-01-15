@@ -1,0 +1,345 @@
+{
+  "brand": "Marvel",
+  "heroTitle": "ESPLORA IL FUTURO DELLA MARVEL",
+  "heroText": "Scopri tutte le uscite in arrivo tra film e serie TV.",
+  "releases": [
+    {
+      "title": "Wonder Man",
+      "type": "serie",
+      "year": 2026,
+      "date": "28 Gennaio 2026",
+      "image": "img/marvel/wonder-man-stagione-1-logo.png",
+      "format": "Serie TV Live-Action",
+      "description": "Simon Williams è un attore e stuntman con superpoteri, che vorrebbe diventare una star a Hollywood in un mondo in cui esistono veri supereroi.",
+      "duration": "8 Episodi da 30 Minuti (Circa).",
+      "director": "Destin Daniel Cretton e Stella Meghie.",
+      "cast": [
+        "Yahya Abdul-Mateen II",
+        "Demetrius Grosse",
+        "Ben Kingsley",
+        "Molti altri"
+      ],
+      "trailers": [
+        "https://www.youtube.com/embed/uKEjWr5sDoY",
+        "https://www.youtube.com/embed/e4FxSMaxrHQ"
+      ]
+    },
+    {
+      "title": "Daredevil: Rinascita Stagione 2",
+      "type": "serie",
+      "year": 2026,
+      "date": "5 Marzo 2026",
+      "image": "img/marvel/daredevil-rinascita-stagione-2-logo.png",
+      "format": "Serie TV Live-Action",
+      "description": "Matt Murdock cerca nuovi alleati per affrontare Fisk, portando il suo nuovo studio legale in prima linea, mentre lotta con i suoi demoni interiori.",
+      "duration": "8 Episodi da 60 Minuti (Circa).",
+      "director": "Justin Benson e Aaron Moorhead",
+      "cast": [
+        "Charlie Cox",
+        "Deborah Ann Woll",
+        "Vincent D'Onofrio",
+        "Molti altri"
+      ],
+      "trailers": [
+      ]
+    },
+    {
+      "title": "X-Men '97 Stagione 2",
+      "type": "serie",
+      "year": 2026,
+      "date": "Estate 2026",
+      "image": "img/marvel/x-men-97-stagione-2-logo.png",
+      "format": "Serie TV Animata",
+      "description": "TBD.",
+      "duration": "TBD.",
+      "director": "TBD.",
+      "cast": [
+        "TBD",
+        "TBD",
+        "TBD"
+      ],
+      "trailers": [
+      ]
+    },
+    {
+      "title": "Spider-Man: Brand New Day",
+      "type": "film",
+      "year": 2026,
+      "date": "31 Luglio 2026",
+      "image": "img/marvel/spider-man-brand-new-day-logo.png",
+      "format": "Film Live-Action",
+      "description": "TBD.",
+      "duration": "TBD.",
+      "director": "Destin Daniel Cretton",
+      "cast": [
+        "Tom Holland",
+        "Zendaya Coleman",
+        "Sadie Sink",
+        "Molti altri"
+      ],
+      "trailers": [
+      ]
+    },
+    {
+      "title": "Il Vostro Amichevole Spider-Man di Quartiere Stagione 2",
+      "type": "serie",
+      "year": 2026,
+      "date": "Autunno 2026",
+      "image": "img/marvel/il-vostro-amichevole-spider-man-di-quartiere-stagione-2-logo.png",
+      "format": "Serie TV Animata",
+      "description": "TBD.",
+      "duration": "TBD.",
+      "director": "TBD.",
+      "cast": [
+        "TBD",
+        "TBD",
+        "TBD"
+      ],
+      "trailers": [
+      ]
+    },
+    {
+      "title": "VisionQuest",
+      "type": "serie",
+      "year": 2026,
+      "date": "Autunno 2026",
+      "image": "img/marvel/visionquest-stagione-1-logo.png",
+      "format": "Serie TV Live-Action",
+      "description": "Dopo gli eventi di WandaVision, Visione Bianco fatica a connettersi con i ricordi che gli sono stati trasmessi, poiché non prova emozioni o sentimenti ad essi associati.",
+      "duration": "TBD.",
+      "director": "Terry Matalas",
+      "cast": [
+        "Paul Bettany",
+        "James Spader",
+        "Todd Stashwick",
+        "Molti altri"
+      ],
+      "trailers": [
+      ]
+    },
+    {
+      "title": "Avengers: Doomsday",
+      "type": "film",
+      "year": 2026,
+      "date": "18 Dicembre 2026",
+      "image": "img/marvel/avengers-doomsday-logo.png",
+      "format": "Film Live-Action",
+      "description": "TBD.",
+      "duration": "TBD.",
+      "director": "Anthony e Joe Russo",
+      "cast": [
+        "Robert Downey Jr",
+        "Chris Evans",
+        "Anthony Mackie",
+        "Molti altri"
+      ],
+      "trailers": [
+        "https://www.youtube.com/embed/S9hBpUY9bDw",
+        "https://www.youtube.com/embed/2-wMsXgA1YM",
+        "https://www.youtube.com/embed/qly7ESIxzlU",
+        "https://www.youtube.com/embed/QZx8vFIJKHQ"
+      ]
+    },
+    {
+      "title": "Punisher",
+      "type": "serie",
+      "year": 2026,
+      "date": "2026",
+      "image": "img/marvel/punisher-logo.png",
+      "format": "Special Presentation",
+      "description": "TBD.",
+      "duration": "TBD.",
+      "director": "Reinaldo Marcus Green",
+      "cast": [
+        "Jon Bernthal",
+        "Jason M. Moore",
+        "Jason M. Moore",
+        "Molti altri"
+      ],
+      "trailers": [
+      ]
+    },
+    {
+      "title": "Spider Noir",
+      "type": "serie",
+      "year": 2026,
+      "date": "2026",
+      "image": "img/marvel/spider-noir-stagione-1-logo.png",
+      "format": "Serie TV Live-Action",
+      "description": "Un investigatore privato invecchiato e sfortunato nella New York degli anni '30 è costretto a fare i conti con la sua vita passata come l'unico e solo supereroe della città.",
+      "duration": "TBD.",
+      "director": "Oren Uziel",
+      "cast": [
+        "Nicolas Cage",
+        "Lamorne Morris",
+        "Brendan Gleeson",
+        "Molti altri"
+      ],
+      "trailers": [
+      ]
+    },
+    {
+      "title": "Spider-Man: Beyond the Spider-Verse",
+      "type": "film",
+      "year": 2027,
+      "date": "18 Giugno 2027",
+      "image": "img/marvel/spider-man-beyond-the-spider-verse-logo.png",
+      "format": "Film Animato",
+      "description": "Miles Morales è ora un fuggitivo in fuga da tutti gli altri Spider-Man del multiverso e Gwen e i suoi altri amici potrebbero non essere sufficienti ad aiutarlo.",
+      "duration": "TBD.",
+      "director": "Bob Persichetti e Justin K. Thompson",
+      "cast": [
+        "Shameik Moore",
+        "Hailee Steinfeld",
+        "Oscar Isaac",
+        "Molti altri"
+      ],
+      "trailers": [
+      ]
+    },
+    {
+      "title": "Avengers: Secret Wars",
+      "type": "film",
+      "year": 2027,
+      "date": "17 Dicembre 2027",
+      "image": "img/marvel/avengers-secret-wars-logo.png",
+      "format": "Film Live-Action",
+      "description": "TBD.",
+      "duration": "TBD.",
+      "director": "Anthony e Joe Russo",
+      "cast": [
+        "TBD ",
+        "TBD",
+        "TBD"
+      ],
+      "trailers": [
+      ]
+    },
+    {
+      "title": "Daredevil: Rinascita Stagione 3",
+      "type": "serie",
+      "year": 2027,
+      "date": "2027",
+      "image": "img/marvel/daredevil-rinascita-stagione-3-logo.png",
+      "format": "Serie TV Live-Action",
+      "description": "TBD.",
+      "duration": "TBD.",
+      "director": "TBD.",
+      "cast": [
+        "TBD",
+        "TBD",
+        "TBD"
+      ],
+      "trailers": [
+      ]
+    },
+    {
+      "title": "X-Men '97 Stagione 3",
+      "type": "serie",
+      "year": 2027,
+      "date": "2027",
+      "image": "img/marvel/x-men-97-stagione-3-logo.png",
+      "format": "Serie TV Animata",
+      "description": "TBD.",
+      "duration": "TBD.",
+      "director": "TBD.",
+      "cast": [
+        "TBD",
+        "TBD",
+        "TBD"
+      ],
+      "trailers": [
+      ]
+    },
+    {
+      "title": "Il Vostro Amichevole Spider-Man di Quartiere Stagione 3",
+      "type": "serie",
+      "year": 2027,
+      "date": "2027",
+      "image": "img/marvel/il-vostro-amichevole-spider-man-di-quartiere-stagione-3-logo.png",
+      "format": "Serie TV Animata",
+      "description": "TBD.",
+      "duration": "TBD.",
+      "director": "TBD.",
+      "cast": [
+        "TBD",
+        "TBD",
+        "TBD"
+      ],
+      "trailers": [
+      ]
+    },
+    {
+      "title": "Untitled",
+      "type": "film",
+      "year": 2028,
+      "date": "18 Febbraio 2028",
+      "image": "img/marvel/untitled-logo.png",
+      "format": "Film Live-Action",
+      "description": "TBD.",
+      "duration": "TBD.",
+      "director": "TBD.",
+      "cast": [
+        "TBD",
+        "TBD",
+        "TBD"
+      ],
+      "trailers": [
+      ]
+    },
+    {
+      "title": "Untitled",
+      "type": "film",
+      "year": 2028,
+      "date": "5 Maggio 2028",
+      "image": "img/marvel/untitled-logo.png",
+      "format": "Film Live-Action",
+      "description": "TBD.",
+      "duration": "TBD.",
+      "director": "TBD.",
+      "cast": [
+        "TBD",
+        "TBD",
+        "TBD"
+      ],
+      "trailers": [
+      ]
+    },
+    {
+      "title": "Untitled",
+      "type": "film",
+      "year": 2028,
+      "date": "10 Novembre 2028",
+      "image": "img/marvel/untitled-logo.png",
+      "format": "Film Live-Action",
+      "description": "TBD.",
+      "duration": "TBD.",
+      "director": "TBD.",
+      "cast": [
+        "TBD",
+        "TBD",
+        "TBD"
+      ],
+      "trailers": [
+      ]
+    },
+    {
+      "title": "Untitled",
+      "type": "film",
+      "year": 2028,
+      "date": "15 Dicembre 2028",
+      "image": "img/marvel/untitled-logo.png",
+      "format": "Film Live-Action",
+      "description": "TBD.",
+      "duration": "TBD..",
+      "director": "TBD.",
+      "cast": [
+        "TBD",
+        "TBD",
+        "TBD"
+      ],
+      "trailers": [
+      ]
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GheshinMerDact - Gioco</title>
+    <link rel="icon" type="image/png" href="immagini/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: linear-gradient(135deg, #1f4037, #99f2c8);
+            color: #fff;
+        }
+        .menu-container {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+        .menu-button {
+            background-color: #333;
+            color: white;
+            font-size: 24px;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .menu {
+            display: none;
+            background-color: #444;
+            border-radius: 5px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+            position: absolute;
+            top: 50px;
+            left: 0;
+            width: 200px;
+            padding: 10px;
+        }
+        .menu ul {
+            list-style: none;
+            padding: 0;
+        }
+        .menu ul li {
+            margin: 10px 0;
+        }
+        .menu ul li a {
+            color: white;
+            font-size: 18px;
+            display: block;
+            padding: 5px;
+            border-radius: 3px;
+            text-decoration: none;
+        }
+        .menu ul li a:hover {
+            background-color: #666;
+        }
+        .menu.show {
+            display: block;
+            animation: slideIn 0.3s ease-in-out;
+        }
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 70vh;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.4);
+            padding: 20px;
+        }
+        .hero-content h1 {
+            font-size: 41px;
+            margin-bottom: 20px;
+        }
+        .hero-content p {
+            font-size: 20px;
+        }
+        footer {
+            background-color: #111;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+            color: #aaa;
+        }
+        .game-wrapper {
+            max-width: 800px;
+            margin: 100px auto 50px;
+            text-align: center;
+        }
+        .game-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 80px);
+            gap: 15px;
+            justify-content: center;
+            margin: 0 auto;
+        }
+        .card {
+            width: 70px;
+            height: 100px;
+            background-color: #fff;
+            border-radius: 12px;
+            cursor: pointer;
+            font-size: 48px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #1f4037;
+            transform: rotateY(0deg);
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+        .card.flipped {
+            background-color: #ff5e62;
+            color: white;
+        }
+        .status {
+            margin-top: 30px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu-container">
+        <button class="menu-button" onclick="toggleMenu()">☰ Menu</button>
+        <div id="menu" class="menu">
+            <ul>
+                <li><a href="index">Home</a></li>
+                <li><a href="senza-senso">Senza Senso</a></li>
+                <li><a href="gioco">Gioco</a></li>
+            </ul>
+        </div>
+    </div>
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Gioco</h1>
+            <p>Trova tutte le coppie nel minor tempo possibile!</p>
+        </div>
+    </header>
+    <main class="game-wrapper">
+        <div class="game-grid" id="gameBoard"></div>
+        <p class="status" id="gameStatus"></p>
+    </main>
+    <footer>
+        <p>&copy; 2025 GheshinMerDact. Tutti i diritti riservati.</p>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('menu');
+            menu.classList.toggle('show');
+        }
+
+        document.addEventListener("DOMContentLoaded", () => {
+            const symbols = ['🍕', '🎈', '🐱', '🚀', '🌈', '🍩', '🎮', '🐸'];
+            let cards = [...symbols, ...symbols];
+            let firstCard = null;
+            let lockBoard = false;
+            let matches = 0;
+
+            const gameBoard = document.getElementById("gameBoard");
+            const status = document.getElementById("gameStatus");
+
+            shuffle(cards);
+
+            cards.forEach(symbol => {
+                const card = document.createElement("div");
+                card.classList.add("card");
+                card.dataset.symbol = symbol;
+                card.innerHTML = "❓";
+                card.addEventListener("click", flipCard);
+                gameBoard.appendChild(card);
+            });
+
+            function flipCard() {
+                if (lockBoard || this.classList.contains("flipped")) return;
+
+                this.classList.add("flipped");
+                this.innerHTML = this.dataset.symbol;
+
+                if (!firstCard) {
+                    firstCard = this;
+                    return;
+                }
+
+                if (firstCard.dataset.symbol === this.dataset.symbol) {
+                    matches++;
+                    firstCard = null;
+                    if (matches === symbols.length) {
+                        status.textContent = "🎉 Hai vinto! Complimenti!";
+                    }
+                } else {
+                    lockBoard = true;
+                    setTimeout(() => {
+                        firstCard.classList.remove("flipped");
+                        this.classList.remove("flipped");
+                        firstCard.innerHTML = "❓";
+                        this.innerHTML = "❓";
+                        firstCard = null;
+                        lockBoard = false;
+                    }, 1000);
+                }
+            }
+
+            function shuffle(array) {
+                for (let i = array.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [array[i], array[j]] = [array[j], array[i]];
+                }
+            }
+        });
+    </script>
+</body>
+</html>

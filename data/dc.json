@@ -1,0 +1,230 @@
+{
+  "brand": "DC",
+  "heroTitle": "ESPLORA IL FUTURO DELLA DC",
+  "heroText": "Scopri tutte le uscite in arrivo tra film e serie TV.",
+  "releases": [
+    {
+      "title": "Untitled",
+      "type": "film",
+      "year": 2026,
+      "date": "29 Maggio 2026",
+      "image": "img/dc/untitled-logo.png",
+      "format": "Film Live-Action",
+      "description": "TBD.",
+      "duration": "TBD.",
+      "director": "TBD.",
+      "cast": [
+        "TBD",
+        "TBD",
+        "TBD"
+      ],
+      "trailers": [
+      ]
+    },
+    {
+      "title": "Supergirl",
+      "type": "film",
+      "year": 2026,
+      "date": "25 Giugno 2026",
+      "image": "img/dc/supergirl-logo.png",
+      "format": "Film Live-Action",
+      "description": "Il film segue Kara Zor‑El, alias Supergirl, cugina di Superman che ha vissuto un’infanzia tormentata e violenta, molto diversa da quella del celebre Uomo d’Acciaio.",
+      "duration": "TBD.",
+      "director": "Craig Gillespie.",
+      "cast": [
+        "Milly Alcock",
+        "Eve Ridley",
+        "Matthias Schoenaerts",
+        "Molti altri"
+      ],
+      "trailers": [
+        "https://www.youtube.com/embed/R3zGpppV7cQ"
+      ]
+    },
+    {
+      "title": "Lanterns",
+      "type": "serie",
+      "year": 2026,
+      "date": "Estate 2026",
+      "image": "img/dc/lanterns-logo.png",
+      "format": "Serie TV Live-Action",
+      "description": "Hal Jordan e John Stewart vengono coinvolti in una vicenda misteriosa e oscura sulla Terra.",
+      "duration": "8 Episodi da 60 Minuti (Circa).",
+      "director": "Chris Mundy.",
+      "cast": [
+        "Kyle Chandler",
+        "Aaron Pierre",
+        "Nathan Fillion",
+        "Molti altri"
+      ],
+      "trailers": [
+      ]
+    },
+    {
+      "title": "Clayface",
+      "type": "film",
+      "year": 2026,
+      "date": "11 Settembre 2026",
+      "image": "img/dc/clayface-logo.png",
+      "format": "Film Live-Action",
+      "description": "Matt Hagen, un attore di serie B la cui carriera precipita dopo che il suo volto viene sfigurato da un’aggressione. Disperato, accetta un trattamento sperimentale da parte di una scienziata controversa che gli permette di trasformare il proprio corpo in argilla mutaforma.",
+      "duration": "TBD.",
+      "director": "James Watkins.",
+      "cast": [
+        "Tom Rhys Harries",
+        "Naomi Ackie",
+        "Max Minghella",
+        "Molti altri"
+      ],
+      "trailers": [
+      ]
+    },
+    {
+      "title": "Blue Beetle",
+      "type": "serie",
+      "year": 2026,
+      "date": "2026",
+      "image": "img/dc/blue-beetle-logo.png",
+      "format": "Serie TV Animata",
+      "description": "TBD.",
+      "duration": "TBD.",
+      "director": "Miguel Puga.",
+      "cast": [
+        "TBD",
+        "TBD",
+        "TBD"
+      ],
+      "trailers": [
+      ]
+    },
+    {
+      "title": "Batman: Knightfall",
+      "type": "film",
+      "year": 2026,
+      "date": "2026",
+      "image": "img/dc/batman-knightfall-logo.png",
+      "format": "Film Animato",
+      "description": "TBD.",
+      "duration": "TBD.",
+      "director": "Jeff Wamester.",
+      "cast": [
+        "TBD",
+        "TBD",
+        "TBD"
+      ],
+      "trailers": [
+      ]
+    },
+    {
+      "title": "Batman Caped Crusader Stagione 2",
+      "type": "serie",
+      "year": 2026,
+      "date": "2026",
+      "image": "img/dc/batman-caped-crusader-stagione-2-logo.png",
+      "format": "Serie TV Animata",
+      "description": "TBD.",
+      "duration": "TBD.",
+      "director": "Bruce Timm, J.J. Abrams e Matt Reeves.",
+      "cast": [
+        "Hamish Linklater",
+        "Christina Ricci",
+        "Jamie Chung",
+        "Molti altri"
+      ],
+      "trailers": [
+      ]
+    },
+    {
+      "title": "Untitled",
+      "type": "serie",
+      "year": 2026,
+      "date": "2026",
+      "image": "img/dc/untitled-logo.png",
+      "format": "Serie TV Live-Action",
+      "description": "TBD.",
+      "duration": "TBD.",
+      "director": "TBD.",
+      "cast": [
+        "TBD",
+        "TBD",
+        "TBD"
+      ],
+      "trailers": [
+      ]
+    },
+    {
+      "title": "Untitled",
+      "type": "film",
+      "year": 2027,
+      "date": "5 Marzo 2027",
+      "image": "img/dc/untitled-logo.png",
+      "format": "Film Live-Action",
+      "description": "TBD.",
+      "duration": "TBD.",
+      "director": "TBD.",
+      "cast": [
+        "TBD",
+        "TBD",
+        "TBD"
+      ],
+      "trailers": [
+      ]
+    },
+    {
+      "title": "Man of Tomorrow",
+      "type": "film",
+      "year": 2027,
+      "date": "9 Luglio 2027",
+      "image": "img/dc/man-of-tomorrow-logo.png",
+      "format": "Film Live-Action",
+      "description": "Il film esplorerà una dinamica inedita tra Clark Kent e Lex Luthor, dove i due potrebbero essere costretti a lavorare insieme contro una minaccia più grande, pur mantenendo la loro storica rivalità e tensione morale.",
+      "duration": "TBD.",
+      "director": "James Gunn.",
+      "cast": [
+        "David Corenswet",
+        "Nicholas Hoult",
+        "Rachel Brosnahan",
+        "Molti altri"
+      ],
+      "trailers": [
+      ]
+    },
+    {
+      "title": "The Batman: Parte II",
+      "type": "film",
+      "year": 2027,
+      "date": "1 Ottobre 2027",
+      "image": "img/dc/the-batman-parte-2-logo.png",
+      "format": "Film Live-Action",
+      "description": "Il film esplorerà una dinamica inedita tra Clark Kent e Lex Luthor, dove i due potrebbero essere costretti a lavorare insieme contro una minaccia più grande, pur mantenendo la loro storica rivalità e tensione morale.",
+      "duration": "TBD.",
+      "director": "James Gunn.",
+      "cast": [
+        "David Corenswet",
+        "Nicholas Hoult",
+        "Rachel Brosnahan",
+        "Molti altri"
+      ],
+      "trailers": [
+      ]
+    },
+    {
+      "title": "Dynamic Duo",
+      "type": "film",
+      "year": 2028,
+      "date": "30 Giugno 2028",
+      "image": "img/dc/dynamic-duo-logo.png",
+      "format": "Film Animato",
+      "description": "Dynamic Duo segue Dick Grayson e Jason Todd in una storia incentrata sulle origini della loro amicizia, rivalità e sulla nascita della loro partnership come vigilanti.",
+      "duration": "TBD.",
+      "director": "Arthur Mintz.",
+      "cast": [
+        "TBD",
+        "TBD",
+        "TBD"
+      ],
+      "trailers": [
+      ]
+    }
+  ]
+}
