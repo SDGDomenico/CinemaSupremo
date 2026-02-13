@@ -5,9 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CinemaSupremo - Marvel</title>
   <link rel="icon" type="image/png" href="favicon.png">
-  <link rel="stylesheet" href="css/stile.css">
-  <script defer src="js/uscite.js"></script>
+  <link rel="stylesheet" href="css/pages/marvel-and-dc.css">
+  <script defer src="js/releases.js"></script>
   <script defer src="js/menu.js"></script>
+  <script defer src="js/footer.js"></script>
 </head>
 
 <body data-brand="marvel">
@@ -34,14 +35,18 @@
 
   <section class="filters">
     <button data-filter="all" class="active">Tutti</button>
-    <button data-filter="film">Cinema</button>
-    <button data-filter="serie">Televisione</button>
+    <button data-filter="movie">Cinema</button>
+    <button data-filter="show">Televisione</button>
   </section>
 
   <section class="releases" id="releases-container"></section>
 </main>
 
-<footer>&copy; 2026 CinemaSupremo. Tutti i diritti riservati.</footer>
+<footer>
+  Sito aggiornato il <span id="updated-date"></span>.
+  <br>
+  &copy; <span id="year"></span> CinemaSupremo. Tutti i diritti riservati.
+</footer>
 
 </body>
 </html>

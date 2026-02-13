@@ -1,41 +1,42 @@
 {
   "brand": "DC",
   "heroTitle": "ESPLORA IL FUTURO DELLA DC",
-  "heroText": "Scopri tutte le uscite in arrivo tra film e serie TV.",
+  "heroText": "Scopri tutte le uscite in arrivo tra Film e Serie TV.",
   "releases": [
     {
       "title": "Untitled",
-      "type": "film",
+      "type": "movie",
       "year": 2026,
-      "date": "29 Maggio 2026",
+      "date": "29 Maggio 2026 (Italia)",
       "image": "img/dc/untitled-logo.png",
       "format": "Film Live-Action",
-      "description": "TBD.",
-      "duration": "TBD.",
-      "director": "TBD.",
+      "description": "TBD",
+      "duration": "TBD",
+      "director": "TBD",
       "cast": [
         "TBD",
         "TBD",
-        "TBD"
+        "TBD",
+        "Molti altri..."
       ],
       "trailers": [
       ]
     },
     {
       "title": "Supergirl",
-      "type": "film",
+      "type": "movie",
       "year": 2026,
-      "date": "25 Giugno 2026",
+      "date": "25 Giugno 2026 (Italia)",
       "image": "img/dc/supergirl-logo.png",
       "format": "Film Live-Action",
-      "description": "Il film segue Kara Zor‑El, alias Supergirl, cugina di Superman che ha vissuto un’infanzia tormentata e violenta, molto diversa da quella del celebre Uomo d’Acciaio.",
-      "duration": "TBD.",
-      "director": "Craig Gillespie.",
+      "description": "Kara Zor-El continua la sua lotta per la speranza e la giustizia a National City, unendo vecchi alleati e nuovi volti per contrastare una misteriosa minaccia proveniente dallo spazio e le oscure manovre di Lex Luthor, mentre affronta il peso della sua eredità kryptoniana e le conseguenze emotive delle sue scelte come Supergirl.",
+      "duration": "120 Minuti (Circa)",
+      "director": "Craig Gillespie",
       "cast": [
         "Milly Alcock",
-        "Eve Ridley",
+        "Jason Momoa",
         "Matthias Schoenaerts",
-        "Molti altri"
+        "Molti altri..."
       ],
       "trailers": [
         "https://www.youtube.com/embed/R3zGpppV7cQ"
@@ -43,185 +44,209 @@
     },
     {
       "title": "Lanterns",
-      "type": "serie",
+      "type": "show",
       "year": 2026,
-      "date": "Estate 2026",
+      "date": "Estate 2026 (Italia)",
       "image": "img/dc/lanterns-logo.png",
       "format": "Serie TV Live-Action",
-      "description": "Hal Jordan e John Stewart vengono coinvolti in una vicenda misteriosa e oscura sulla Terra.",
-      "duration": "8 Episodi da 60 Minuti (Circa).",
-      "director": "Chris Mundy.",
+      "description": "Hal Jordan e John Stewart continuano la loro lotta per mantenere la pace intergalattica come membri della Green Lantern Corps, unendo vecchi alleati e nuovi volti per investigare un misterioso omicidio nel cuore degli Stati Uniti che si rivelerà con connessioni profonde e oscure all’intero universo DC, mentre affrontano il peso delle proprie responsabilità, del passato e delle scelte che cambieranno per sempre il loro destino.",
+      "duration": "8 Episodi da 60 Minuti (Circa)",
+      "director": "Chris Mundy",
       "cast": [
         "Kyle Chandler",
         "Aaron Pierre",
         "Nathan Fillion",
-        "Molti altri"
+        "Molti altri..."
       ],
       "trailers": [
       ]
     },
     {
       "title": "Clayface",
-      "type": "film",
+      "type": "movie",
       "year": 2026,
-      "date": "11 Settembre 2026",
+      "date": "23 Ottobre 2026 (Italia)",
       "image": "img/dc/clayface-logo.png",
       "format": "Film Live-Action",
-      "description": "Matt Hagen, un attore di serie B la cui carriera precipita dopo che il suo volto viene sfigurato da un’aggressione. Disperato, accetta un trattamento sperimentale da parte di una scienziata controversa che gli permette di trasformare il proprio corpo in argilla mutaforma.",
-      "duration": "TBD.",
-      "director": "James Watkins.",
+      "description": "Basil Karlo continua la sua disperata lotta per riconquistare fama e identità in una Gotham ossessionata dall’immagine e dal successo, unendo vecchi contatti dell’industria cinematografica e nuove figure ambigue per tornare sotto i riflettori, mentre un esperimento destinato a rilanciare la sua carriera lo trasforma in una creatura mutaforma fuori controllo e lo costringe ad affrontare le conseguenze fisiche e morali delle sue scelte, scivolando sempre più nell’oscurità come Clayface.",
+      "duration": "90 Minuti (Circa)",
+      "director": "James Watkins",
       "cast": [
         "Tom Rhys Harries",
         "Naomi Ackie",
         "Max Minghella",
-        "Molti altri"
+        "Molti altri..."
       ],
       "trailers": [
       ]
     },
     {
       "title": "Blue Beetle",
-      "type": "serie",
+      "type": "show",
       "year": 2026,
-      "date": "2026",
+      "date": "2026 (Italia)",
       "image": "img/dc/blue-beetle-logo.png",
       "format": "Serie TV Animata",
-      "description": "TBD.",
-      "duration": "TBD.",
-      "director": "Miguel Puga.",
+      "description": "Jaime Reyes continua la sua lotta per proteggere Palmera City e comprendere il potere dello Scarabeo tecnologico alieno che gli ha conferito l’armatura di Blue Beetle, unendo vecchi alleati e nuovi amici per fronteggiare minacce intergalattiche e oscure forze industriali, mentre affronta i conflitti interiori legati alla sua eredità familiare, alla responsabilità del suo destino da supereroe e alle conseguenze delle sue scelte come Blue Beetle nel mondo che sta cambiando rapidamente.",
+      "duration": "8 Episodi da 30 Minuti (Circa)",
+      "director": "Miguel Puga",
       "cast": [
-        "TBD",
-        "TBD",
-        "TBD"
+        "Xolo Maridueña",
+        "Bruna Marquezine",
+        "Becky G",
+        "Molti altri..."
       ],
       "trailers": [
       ]
     },
     {
-      "title": "Batman: Knightfall",
-      "type": "film",
+      "title": "Batman: Knightfall Parte 1",
+      "type": "movie",
       "year": 2026,
-      "date": "2026",
-      "image": "img/dc/batman-knightfall-logo.png",
+      "date": "2026 (Italia)",
+      "image": "img/dc/batman-knightfall-parte-1-logo.png",
       "format": "Film Animato",
-      "description": "TBD.",
-      "duration": "TBD.",
-      "director": "Jeff Wamester.",
+      "description": "Bruce Wayne continua la sua lotta per la giustizia a Gotham City quando Bane, un enigmatico e formidabile guerriero, libera l’intera Rogues Gallery dall’Arkham Asylum, costringendo il Cavaliere Oscuro a battersi in una serie di scontri logoranti con i criminali più temibili della città; unendo vecchi alleati e nuovi sostenitori per affrontare questa ondata di caos, Batman si ritrova oltre i limiti della resistenza fisica e mentale e deve confrontarsi con le conseguenze devastanti delle sue scelte nel ruolo di simbolo oscuro di speranza per Gotham.",
+      "duration": "90 Minuti (Circa)",
+      "director": "Jeff Wamester",
       "cast": [
         "TBD",
         "TBD",
-        "TBD"
+        "TBD",
+        "Molti altri..."
       ],
       "trailers": [
       ]
     },
     {
       "title": "Batman Caped Crusader Stagione 2",
-      "type": "serie",
+      "type": "show",
       "year": 2026,
-      "date": "2026",
+      "date": "2026 (Italia)",
       "image": "img/dc/batman-caped-crusader-stagione-2-logo.png",
       "format": "Serie TV Animata",
-      "description": "TBD.",
-      "duration": "TBD.",
-      "director": "Bruce Timm, J.J. Abrams e Matt Reeves.",
+      "description": "La seconda stagione riprenderà le vicende noir e crime‑driven ambientate in una Gotham City degli anni ’40–’50, continuando l’arco narrativo iniziato con Bruce Wayne che, dopo aver indossato la maschera di Batman, affronta l’ondata di criminalità e corruzione dilagante in città. I prossimi episodi introdurranno nuove minacce e antagonisti — con un ruolo sempre più centrale del Joker, che emerge dalle ombre dopo gli eventi sconvolgenti che hanno chiuso la prima stagione.",
+      "duration": "10 Episodi da 30 Minuti (Circa)",
+      "director": "Bruce Timm",
       "cast": [
         "Hamish Linklater",
-        "Christina Ricci",
-        "Jamie Chung",
-        "Molti altri"
+        "Jason Watkins",
+        "Krystal Joy Brown",
+        "Molti altri..."
       ],
       "trailers": [
       ]
     },
     {
       "title": "Untitled",
-      "type": "serie",
+      "type": "show",
       "year": 2026,
-      "date": "2026",
+      "date": "2026 (Italia)",
       "image": "img/dc/untitled-logo.png",
       "format": "Serie TV Live-Action",
-      "description": "TBD.",
-      "duration": "TBD.",
-      "director": "TBD.",
+      "description": "TBD",
+      "duration": "TBD",
+      "director": "TBD",
       "cast": [
         "TBD",
         "TBD",
-        "TBD"
+        "TBD",
+        "Molti altri..."
       ],
       "trailers": [
       ]
     },
     {
       "title": "Untitled",
-      "type": "film",
+      "type": "movie",
       "year": 2027,
-      "date": "5 Marzo 2027",
+      "date": "05 Marzo 2027 (Italia)",
       "image": "img/dc/untitled-logo.png",
       "format": "Film Live-Action",
-      "description": "TBD.",
-      "duration": "TBD.",
-      "director": "TBD.",
+      "description": "TBD",
+      "duration": "TBD",
+      "director": "TBD",
       "cast": [
         "TBD",
         "TBD",
-        "TBD"
+        "TBD",
+        "Molti altri..."
       ],
       "trailers": [
       ]
     },
     {
       "title": "Man of Tomorrow",
-      "type": "film",
+      "type": "movie",
       "year": 2027,
-      "date": "9 Luglio 2027",
+      "date": "09 Luglio 2027 (Italia)",
       "image": "img/dc/man-of-tomorrow-logo.png",
       "format": "Film Live-Action",
-      "description": "Il film esplorerà una dinamica inedita tra Clark Kent e Lex Luthor, dove i due potrebbero essere costretti a lavorare insieme contro una minaccia più grande, pur mantenendo la loro storica rivalità e tensione morale.",
-      "duration": "TBD.",
-      "director": "James Gunn.",
+      "description": "Clark Kent/Superman e il suo storico nemico Lex Luthor saranno i co‑protagonisti di una nuova avventura che non è un semplice sequel diretto del Superman del 2025, ma un capitolo narrativo più ampio all’interno della “Superman Saga” del DCU. In questo film i due rivali sono costretti a collaborare per affrontare una minaccia molto più grande di loro separatamente, andando oltre la loro tradizionale contrapposizione.",
+      "duration": "120 Minuti (Circa)",
+      "director": "James Gunn",
       "cast": [
         "David Corenswet",
         "Nicholas Hoult",
         "Rachel Brosnahan",
-        "Molti altri"
+        "Molti altri..."
       ],
       "trailers": [
       ]
     },
     {
       "title": "The Batman: Parte II",
-      "type": "film",
+      "type": "movie",
       "year": 2027,
-      "date": "1 Ottobre 2027",
+      "date": "01 Ottobre 2027 (Italia)",
       "image": "img/dc/the-batman-parte-2-logo.png",
       "format": "Film Live-Action",
-      "description": "Il film esplorerà una dinamica inedita tra Clark Kent e Lex Luthor, dove i due potrebbero essere costretti a lavorare insieme contro una minaccia più grande, pur mantenendo la loro storica rivalità e tensione morale.",
-      "duration": "TBD.",
-      "director": "James Gunn.",
+      "description": "Il sequel riparte subito dopo gli eventi del primo film, con Bruce Wayne/Batman che affronta un nuovo mistero legato alla corruzione profonda di Gotham City e a nuove minacce che metteranno in discussione non solo le sue capacità da vigilante, ma anche le sue relazioni dentro e fuori la città.",
+      "duration": "120 Minuti (Circa)",
+      "director": "Matt Reeves",
       "cast": [
-        "David Corenswet",
-        "Nicholas Hoult",
-        "Rachel Brosnahan",
-        "Molti altri"
+        "Robert Pattinson",
+        "Andy Serkis",
+        "Jeffrey Wright",
+        "Molti altri..."
+      ],
+      "trailers": [
+      ]
+    },
+    {
+      "title": "Creature Commandos Stagione 2",
+      "type": "show",
+      "year": 2027,
+      "date": "2027 (Italia)",
+      "image": "img/dc/creature-commandos-stagione-2-logo.png",
+      "format": "Serie TV Animata",
+      "description": "La stagione 2 continuerà le avventure del team di Creature Commandos — un gruppo di mostri reclutati da Amanda Waller per missioni estremamente pericolose che nessun altro può affrontare — ampliando la storia iniziata nella prima stagione con nuove missioni, nuovi personaggi e potenziali colpi di scena legati alla dinamica del gruppo.",
+      "duration": "8 Episodi da 30 Minuti (Circa)",
+      "director": "Dean Lorey",
+      "cast": [
+        "Frank Grillo",
+        "Sean Gunn",
+        "David Harbour",
+        "Molti altri..."
       ],
       "trailers": [
       ]
     },
     {
       "title": "Dynamic Duo",
-      "type": "film",
+      "type": "movie",
       "year": 2028,
-      "date": "30 Giugno 2028",
+      "date": "30 Giugno 2028 (Italia)",
       "image": "img/dc/dynamic-duo-logo.png",
       "format": "Film Animato",
-      "description": "Dynamic Duo segue Dick Grayson e Jason Todd in una storia incentrata sulle origini della loro amicizia, rivalità e sulla nascita della loro partnership come vigilanti.",
-      "duration": "TBD.",
-      "director": "Arthur Mintz.",
+      "description": "Dynamic Duo racconta le origini e la crescita dell’amicizia tra Dick Grayson e Jason Todd, due orfani che diventano i celebri Robin di Gotham City. Uniti dall’essere ragazzi con aspirazioni di vita migliori, i loro ideali divergenti sul futuro metteranno alla prova la loro lealtà e collaborazione prima di formare il leggendario Dinamico Duo nelle strade di Gotham.",
+      "duration": "90 Minuti (Circa)",
+      "director": "Arthur Mintz",
       "cast": [
         "TBD",
         "TBD",
-        "TBD"
+        "TBD",
+        "Molti altri..."
       ],
       "trailers": [
       ]

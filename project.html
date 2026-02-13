@@ -5,11 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CinemaSupremo</title>
   <link rel="icon" type="image/png" href="favicon.png">
-  <link rel="stylesheet" href="css/stile.css">
+  <link rel="stylesheet" href="css/pages/project.css">
   <script defer src="js/menu.js"></script>
+  <script defer src="js/footer.js"></script>
 </head>
 
-<body>
+<body data-layout="footer-bottom">
 
 <header>
   <nav>
@@ -30,11 +31,15 @@
     <img id="project-poster" alt="">
   </section>
 
-  <section class="project-detail" id="content"></section>
+  <section id="content"></section>
 </main>
 
-<footer>&copy; 2026 CinemaSupremo. Tutti i diritti riservati.</footer>
+<footer>
+  Sito aggiornato il <span id="updated-date"></span>.
+  <br>
+  &copy; <span id="year"></span> CinemaSupremo. Tutti i diritti riservati.
+</footer>
 
-<script defer src="js/progetto.js"></script>
+<script defer src="js/project.js"></script>
 </body>
 </html>

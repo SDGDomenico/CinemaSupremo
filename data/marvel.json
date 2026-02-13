@@ -1,137 +1,158 @@
 {
   "brand": "Marvel",
   "heroTitle": "ESPLORA IL FUTURO DELLA MARVEL",
-  "heroText": "Scopri tutte le uscite in arrivo tra film e serie TV.",
+  "heroText": "Scopri tutte le uscite in arrivo tra Film e Serie TV.",
   "releases": [
     {
-      "title": "Wonder Man",
-      "type": "serie",
-      "year": 2026,
-      "date": "28 Gennaio 2026",
-      "image": "img/marvel/wonder-man-stagione-1-logo.png",
-      "format": "Serie TV Live-Action",
-      "description": "Simon Williams è un attore e stuntman con superpoteri, che vorrebbe diventare una star a Hollywood in un mondo in cui esistono veri supereroi.",
-      "duration": "8 Episodi da 30 Minuti (Circa).",
-      "director": "Destin Daniel Cretton e Stella Meghie.",
-      "cast": [
-        "Yahya Abdul-Mateen II",
-        "Demetrius Grosse",
-        "Ben Kingsley",
-        "Molti altri"
-      ],
-      "trailers": [
-        "https://www.youtube.com/embed/uKEjWr5sDoY",
-        "https://www.youtube.com/embed/e4FxSMaxrHQ"
-      ]
-    },
-    {
       "title": "Daredevil: Rinascita Stagione 2",
-      "type": "serie",
+      "type": "show",
       "year": 2026,
-      "date": "5 Marzo 2026",
+      "date": "25 Marzo 2026 (Italia)",
       "image": "img/marvel/daredevil-rinascita-stagione-2-logo.png",
       "format": "Serie TV Live-Action",
-      "description": "Matt Murdock cerca nuovi alleati per affrontare Fisk, portando il suo nuovo studio legale in prima linea, mentre lotta con i suoi demoni interiori.",
-      "duration": "8 Episodi da 60 Minuti (Circa).",
-      "director": "Justin Benson e Aaron Moorhead",
+      "description": "Matt Murdock continua la sua lotta per la legalità e la giustizia ad Hell’s Kitchen, unendo vecchi alleati e nuovi volti per contrastare Wilson Fisk e altre forze oscure nella città, mentre affronta le conseguenze morali e personali delle sue scelte da Daredevil.",
+      "duration": "8 Episodi da 60 Minuti (Circa)",
+      "director": "Dario Scardapane",
       "cast": [
         "Charlie Cox",
         "Deborah Ann Woll",
         "Vincent D'Onofrio",
-        "Molti altri"
+        "Molti altri..."
+      ],
+      "trailers": [
+        "https://www.youtube.com/embed/oCrL4f0AIR4"
+      ]
+    },
+    {
+      "title": "Spider Noir",
+      "type": "show",
+      "year": 2026,
+      "date": "27 Maggio 2026 (Italia)",
+      "image": "img/marvel/spider-noir-stagione-1-logo.png",
+      "format": "Serie TV Live-Action",
+      "description": "Ben Reilly, un investigatore privato invecchiato e pieno di cicatrici nella New York degli anni ’30, è costretto a confrontarsi col suo passato di unico supereroe della città, intrecciando indagini, misteri e ombre della sua vita precedente.",
+      "duration": "8 Episodi da 45 Minuti (Circa)",
+      "director": "Oren Uziel e Steve Lightfoot",
+      "cast": [
+        "Nicolas Cage",
+        "Lamorne Morris",
+        "Brendan Gleeson",
+        "Molti altri..."
+      ],
+      "trailers": [
+        "https://www.youtube.com/embed/Q_-YQWqYiRE"
+      ]
+    },
+    {
+      "title": "X-Men '97 Stagione 2",
+      "type": "show",
+      "year": 2026,
+      "date": "Estate 2026 (Italia)",
+      "image": "img/marvel/x-men-97-stagione-2-logo.png",
+      "format": "Serie TV Animata",
+      "description": "Gli X‑Men, dispersi attraverso varie epoche dopo gli sconvolgenti eventi della prima stagione, devono riunirsi per affrontare la minaccia di Apocalypse e recuperare il loro posto negli anni ’90, mentre vecchie alleanze e nuovi pericoli mettono alla prova la loro unità.",
+      "duration": "10 Episodi da 30 Minuti (Circa)",
+      "director": "Beau DeMayo e Matthew Chauncey",
+      "cast": [
+        "Jennifer Hale",
+        "Cal Dodd",
+        "Lenore Zann",
+        "Molti altri..."
       ],
       "trailers": [
       ]
     },
     {
-      "title": "X-Men '97 Stagione 2",
-      "type": "serie",
+      "title": "Punisher One Shot Special",
+      "type": "show",
       "year": 2026,
-      "date": "Estate 2026",
-      "image": "img/marvel/x-men-97-stagione-2-logo.png",
-      "format": "Serie TV Animata",
-      "description": "TBD.",
-      "duration": "TBD.",
-      "director": "TBD.",
+      "date": "Estate 2026 (Italia)",
+      "image": "https://placehold.co/600x350?text=Punisher%20One%20Shot%20Special",
+      "format": "Special Presentation",
+      "description": "Frank Castle torna a colpire nel cuore del crimine a New York in uno speciale intenso e crudo, seguendo la sua fuga e la sua personale guerra contro boss e corruzione, mentre affronta le ombre del suo passato con spietata determinazione.",
+      "duration": "45 Minuti (Circa)",
+      "director": "Reinaldo Marcus Green",
       "cast": [
-        "TBD",
-        "TBD",
-        "TBD"
+        "Jon Bernthal",
+        "Jason R. Moore",
+        "Roe Rancell",
+        "Molti altri..."
       ],
       "trailers": [
       ]
     },
     {
       "title": "Spider-Man: Brand New Day",
-      "type": "film",
+      "type": "movie",
       "year": 2026,
-      "date": "31 Luglio 2026",
+      "date": "31 Luglio 2026 (Italia)",
       "image": "img/marvel/spider-man-brand-new-day-logo.png",
       "format": "Film Live-Action",
-      "description": "TBD.",
-      "duration": "TBD.",
+      "description": "Peter Parker affronta una nuova fase della sua vita da Spider‑Man dopo gli eventi di No Way Home, combattendo il crimine di strada a New York e riscoprendo cosa significa essere un eroe in un mondo che ha cancellato la sua identità segreta.",
+      "duration": "120 Minuti (Circa)",
       "director": "Destin Daniel Cretton",
       "cast": [
         "Tom Holland",
         "Zendaya Coleman",
         "Sadie Sink",
-        "Molti altri"
+        "Molti altri..."
       ],
       "trailers": [
       ]
     },
     {
       "title": "Il Vostro Amichevole Spider-Man di Quartiere Stagione 2",
-      "type": "serie",
+      "type": "show",
       "year": 2026,
-      "date": "Autunno 2026",
+      "date": "Autunno 2026 (Italia)",
       "image": "img/marvel/il-vostro-amichevole-spider-man-di-quartiere-stagione-2-logo.png",
       "format": "Serie TV Animata",
-      "description": "TBD.",
-      "duration": "TBD.",
-      "director": "TBD.",
+      "description": "Peter Parker continua a destreggiarsi tra la vita scolastica e i doveri da supereroe, affrontando nuove minacce come Venom e intrecci complicati con Gwen Stacy, mentre le sue relazioni con amici e nemici evolvono in modi inaspettati nel suo viaggio verso il vero significato di Spider‑Man.",
+      "duration": "10 Episodi da 30 Minuti (Circa)",
+      "director": "Jeff Trammell",
       "cast": [
-        "TBD",
-        "TBD",
-        "TBD"
+        "Hudson Thames",
+        "Laura Bailey",
+        "Max Mittelman",
+        "Molti altri..."
       ],
       "trailers": [
       ]
     },
     {
       "title": "VisionQuest",
-      "type": "serie",
+      "type": "show",
       "year": 2026,
-      "date": "Autunno 2026",
+      "date": "Autunno 2026 (Italia)",
       "image": "img/marvel/visionquest-stagione-1-logo.png",
       "format": "Serie TV Live-Action",
-      "description": "Dopo gli eventi di WandaVision, Visione Bianco fatica a connettersi con i ricordi che gli sono stati trasmessi, poiché non prova emozioni o sentimenti ad essi associati.",
-      "duration": "TBD.",
+      "description": "Visione Bianco intraprende un viaggio esistenziale per riconnettersi alle memorie e all’umanità che gli sono state donate, confrontandosi con versioni umane di IA come J.A.R.V.I.S. e FRIDAY mentre affronta il ritorno di Ultron e scopre verità profonde su sé stesso e sul suo posto nell’universo.",
+      "duration": "8 Episodi da 45 Minuti (Circa)",
       "director": "Terry Matalas",
       "cast": [
         "Paul Bettany",
         "James Spader",
         "Todd Stashwick",
-        "Molti altri"
+        "Molti altri..."
       ],
       "trailers": [
       ]
     },
     {
       "title": "Avengers: Doomsday",
-      "type": "film",
+      "type": "movie",
       "year": 2026,
-      "date": "18 Dicembre 2026",
+      "date": "18 Dicembre 2026 (Italia)",
       "image": "img/marvel/avengers-doomsday-logo.png",
       "format": "Film Live-Action",
-      "description": "TBD.",
-      "duration": "TBD.",
-      "director": "Anthony e Joe Russo",
+      "description": "Gli Avengers più potenti della Terra – insieme ai Fantastici Quattro, agli X‑Men e a nuovi alleati – si riuniscono per fermare l’ascesa di Doctor Doom, una minaccia multiversale che mette a rischio non solo la Terra ma l’intero tessuto della realtà.",
+      "duration": "120 Minuti (Circa)",
+      "director": "Anthony Russo e Joe Russo",
       "cast": [
         "Robert Downey Jr",
         "Chris Evans",
-        "Anthony Mackie",
-        "Molti altri"
+        "Chris Hemsworth",
+        "Molti altri..."
       ],
       "trailers": [
         "https://www.youtube.com/embed/S9hBpUY9bDw",
@@ -141,202 +162,191 @@
       ]
     },
     {
-      "title": "Punisher",
-      "type": "serie",
-      "year": 2026,
-      "date": "2026",
-      "image": "img/marvel/punisher-logo.png",
-      "format": "Special Presentation",
-      "description": "TBD.",
-      "duration": "TBD.",
-      "director": "Reinaldo Marcus Green",
-      "cast": [
-        "Jon Bernthal",
-        "Jason M. Moore",
-        "Jason M. Moore",
-        "Molti altri"
-      ],
-      "trailers": [
-      ]
-    },
-    {
-      "title": "Spider Noir",
-      "type": "serie",
-      "year": 2026,
-      "date": "2026",
-      "image": "img/marvel/spider-noir-stagione-1-logo.png",
-      "format": "Serie TV Live-Action",
-      "description": "Un investigatore privato invecchiato e sfortunato nella New York degli anni '30 è costretto a fare i conti con la sua vita passata come l'unico e solo supereroe della città.",
-      "duration": "TBD.",
-      "director": "Oren Uziel",
-      "cast": [
-        "Nicolas Cage",
-        "Lamorne Morris",
-        "Brendan Gleeson",
-        "Molti altri"
-      ],
-      "trailers": [
-      ]
-    },
-    {
       "title": "Spider-Man: Beyond the Spider-Verse",
-      "type": "film",
+      "type": "movie",
       "year": 2027,
-      "date": "18 Giugno 2027",
+      "date": "18 Giugno 2027 (Italia)",
       "image": "img/marvel/spider-man-beyond-the-spider-verse-logo.png",
       "format": "Film Animato",
-      "description": "Miles Morales è ora un fuggitivo in fuga da tutti gli altri Spider-Man del multiverso e Gwen e i suoi altri amici potrebbero non essere sufficienti ad aiutarlo.",
-      "duration": "TBD.",
+      "description": "Miles Morales lotta per tornare a casa dopo essere rimasto intrappolato nell’universo alternativo senza Spider‑Heroes, mentre Gwen Stacy, il Prowler e una schiera di Spider‑Persone si imbarcano in una missione attraverso il Multiverso per salvarlo e affrontare nemici sempre più potenti.",
+      "duration": "120 Minuti (Circa)",
       "director": "Bob Persichetti e Justin K. Thompson",
       "cast": [
         "Shameik Moore",
         "Hailee Steinfeld",
-        "Oscar Isaac",
-        "Molti altri"
+        "Daniel Kaluuya",
+        "Molti altri..."
       ],
       "trailers": [
       ]
     },
     {
       "title": "Avengers: Secret Wars",
-      "type": "film",
+      "type": "movie",
       "year": 2027,
-      "date": "17 Dicembre 2027",
+      "date": "17 Dicembre 2027 (Italia)",
       "image": "img/marvel/avengers-secret-wars-logo.png",
       "format": "Film Live-Action",
-      "description": "TBD.",
-      "duration": "TBD.",
-      "director": "Anthony e Joe Russo",
+      "description": "Dopo gli sconvolgimenti multiversali di Avengers: Doomsday, gli Avengers e nuovi alleati vengono trascinati in un conflitto cosmico su scala universale quando le incursioni e la frammentazione della realtà costringono eroi e villain a scontrarsi e a ricostruire l’esistenza stessa sotto la minaccia di Doctor Doom e altri poteri cosmici.",
+      "duration": "120 Minuti (Circa)",
+      "director": "Anthony Russo e Joe Russo",
       "cast": [
-        "TBD ",
-        "TBD",
-        "TBD"
+        "Robert Downey Jr.",
+        "Chris Evans",
+        "Chris Hemsworth",
+        "Molti altri..."
       ],
       "trailers": [
       ]
     },
     {
       "title": "Daredevil: Rinascita Stagione 3",
-      "type": "serie",
+      "type": "show",
       "year": 2027,
-      "date": "2027",
+      "date": "2027 (Italia)",
       "image": "img/marvel/daredevil-rinascita-stagione-3-logo.png",
       "format": "Serie TV Live-Action",
-      "description": "TBD.",
-      "duration": "TBD.",
-      "director": "TBD.",
+      "description": "Matt Murdock continua la sua lotta per la legalità e la giustizia ad Hell’s Kitchen, unendo vecchi alleati e nuovi volti per contrastare Wilson Fisk e altre forze oscure nella città, mentre affronta le conseguenze morali e personali delle sue scelte da Daredevil.",
+      "duration": "8 Episodi da 60 Minuti (Circa)",
+      "director": "Dario Scardapane",
       "cast": [
-        "TBD",
-        "TBD",
-        "TBD"
+        "Charlie Cox",
+        "Deborah Ann Woll",
+        "Vincent D'Onofrio",
+        "Molti altri..."
       ],
       "trailers": [
       ]
     },
     {
       "title": "X-Men '97 Stagione 3",
-      "type": "serie",
+      "type": "show",
       "year": 2027,
-      "date": "2027",
+      "date": "2027 (Italia)",
       "image": "img/marvel/x-men-97-stagione-3-logo.png",
       "format": "Serie TV Animata",
-      "description": "TBD.",
-      "duration": "TBD.",
-      "director": "TBD.",
+      "description": "Gli X‑Men, dispersi attraverso varie epoche dopo gli sconvolgenti eventi della prima stagione, devono riunirsi per affrontare la minaccia di Apocalypse e recuperare il loro posto negli anni ’90, mentre vecchie alleanze e nuovi pericoli mettono alla prova la loro unità.",
+      "duration": "10 Episodi da 30 Minuti (Circa)",
+      "director": "Matthew Chauncey",
       "cast": [
-        "TBD",
-        "TBD",
-        "TBD"
+        "Jennifer Hale",
+        "Cal Dodd",
+        "Lenore Zann",
+        "Molti altri..."
       ],
       "trailers": [
       ]
     },
     {
       "title": "Il Vostro Amichevole Spider-Man di Quartiere Stagione 3",
-      "type": "serie",
+      "type": "show",
       "year": 2027,
-      "date": "2027",
+      "date": "2027 (Italia)",
       "image": "img/marvel/il-vostro-amichevole-spider-man-di-quartiere-stagione-3-logo.png",
       "format": "Serie TV Animata",
-      "description": "TBD.",
-      "duration": "TBD.",
-      "director": "TBD.",
+      "description": "Peter Parker continua a destreggiarsi tra la vita scolastica e i doveri da supereroe, affrontando nuove minacce come Venom e intrecci complicati con Gwen Stacy, mentre le sue relazioni con amici e nemici evolvono in modi inaspettati nel suo viaggio verso il vero significato di Spider‑Man.",
+      "duration": "10 Episodi da 30 Minuti (Circa)",
+      "director": "Jeff Trammell",
       "cast": [
-        "TBD",
-        "TBD",
-        "TBD"
+        "Hudson Thames",
+        "Laura Bailey",
+        "Max Mittelman",
+        "Molti altri..."
+      ],
+      "trailers": [
+      ]
+    },
+    {
+      "title": "Black Panter 3",
+      "type": "movie",
+      "year": 2028,
+      "date": "2028 (Italia)",
+      "image": "https://placehold.co/600x350?text=Black%20Panter%203",
+      "format": "Film Live-Action",
+      "description": "Shuri assume definitivamente il ruolo di Black Panther mentre Wakanda affronta nuove sfide interne ed esterne dopo gli eventi globali del Multiverso, esplorando l’eredità di T’Challa e l’espansione del suo regno con alleati e nemici inaspettati, tra tradizione e futuro.",
+      "duration": "120 Minuti (Circa)",
+      "director": "Ryan Coogler",
+      "cast": [
+        "Letitia Wright",
+        "Denzel Washington",
+        "Danai Gurira",
+        "Molti altri..."
       ],
       "trailers": [
       ]
     },
     {
       "title": "Untitled",
-      "type": "film",
+      "type": "movie",
       "year": 2028,
-      "date": "18 Febbraio 2028",
+      "date": "18 Febbraio 2028 (Italia)",
       "image": "img/marvel/untitled-logo.png",
       "format": "Film Live-Action",
-      "description": "TBD.",
-      "duration": "TBD.",
-      "director": "TBD.",
+      "description": "TBD",
+      "duration": "TBD",
+      "director": "TBD",
       "cast": [
         "TBD",
         "TBD",
-        "TBD"
+        "TBD",
+        "Molti altri..."
       ],
       "trailers": [
       ]
     },
     {
       "title": "Untitled",
-      "type": "film",
+      "type": "movie",
       "year": 2028,
-      "date": "5 Maggio 2028",
+      "date": "05 Maggio 2028 (Italia)",
       "image": "img/marvel/untitled-logo.png",
       "format": "Film Live-Action",
-      "description": "TBD.",
-      "duration": "TBD.",
-      "director": "TBD.",
+      "description": "TBD",
+      "duration": "TBD",
+      "director": "TBD",
       "cast": [
         "TBD",
         "TBD",
-        "TBD"
+        "TBD",
+        "Molti altri..."
       ],
       "trailers": [
       ]
     },
     {
       "title": "Untitled",
-      "type": "film",
+      "type": "movie",
       "year": 2028,
-      "date": "10 Novembre 2028",
+      "date": "10 Novembre 2028 (Italia)",
       "image": "img/marvel/untitled-logo.png",
       "format": "Film Live-Action",
-      "description": "TBD.",
-      "duration": "TBD.",
-      "director": "TBD.",
+      "description": "TBD",
+      "duration": "TBD",
+      "director": "TBD",
       "cast": [
         "TBD",
         "TBD",
-        "TBD"
+        "TBD",
+        "Molti altri..."
       ],
       "trailers": [
       ]
     },
     {
       "title": "Untitled",
-      "type": "film",
+      "type": "movie",
       "year": 2028,
-      "date": "15 Dicembre 2028",
+      "date": "15 Dicembre 2028 (Italia)",
       "image": "img/marvel/untitled-logo.png",
       "format": "Film Live-Action",
-      "description": "TBD.",
-      "duration": "TBD..",
-      "director": "TBD.",
+      "description": "TBD",
+      "duration": "TBD",
+      "director": "TBD",
       "cast": [
         "TBD",
         "TBD",
-        "TBD"
+        "TBD",
+        "Molti altri..."
       ],
       "trailers": [
       ]
