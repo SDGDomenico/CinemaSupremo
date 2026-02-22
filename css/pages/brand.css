@@ -1,0 +1,15 @@
+.filters {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 40px auto;
+}
+
+.releases {
+    max-width: 1200px;
+    margin: 0 auto 60px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}

@@ -1,0 +1,70 @@
+@media (max-width: 768px) {
+
+    .hero {
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .hero h2 {
+        max-width: 100%;
+        font-size: 1.8rem;
+    }
+
+    .menu {
+        display: none !important;
+        position: fixed;
+        top: 70px;
+        right: 30px;
+        flex-direction: column;
+        background-color: #222;
+        padding: 15px;
+        border-radius: 8px;
+        z-index: 2000;
+    }
+
+    .menu.show {
+        display: flex !important;
+    }
+
+    .hamburger {
+        display: flex !important;
+        cursor: pointer;
+    }
+
+    .project-hero {
+        padding: 100px 20px 80px;
+    }
+
+    .project-hero img {
+        max-width: 280px;
+    }
+
+    .project-details {
+        padding: 35px 25px;
+    }
+
+    .project-details h1 {
+        font-size: 1.8rem;
+    }
+
+    .project-details p {
+        font-size: 1rem;
+    }
+
+    .project-meta {
+        grid-template-columns: 1fr;
+    }
+
+    .trailer-card {
+        padding: 30px 20px;
+    }
+
+    .trailer-card h3 {
+        font-size: 1.5rem;
+    }
+}

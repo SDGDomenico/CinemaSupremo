@@ -1,0 +1,37 @@
+.project-details {
+    background-color: #141414;
+    padding: 60px;
+    border-radius: 28px;
+    box-shadow: 0 30px 60px rgba(0,0,0,.6);
+    margin-top: 60px;
+    text-align: left;
+}
+
+.project-details h1 {
+    font-size: 2.2rem;
+    color: var(--main-color);
+    margin-bottom: 25px;
+}
+
+.project-details p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #ccc;
+    margin-bottom: 40px;
+}
+
+.project-meta {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.project-meta li {
+    background-color: #1c1c1c;
+    padding: 18px;
+    border-radius: 14px;
+    font-size: 0.95rem;
+    color: #aaa;
+    border: 1px solid rgba(255,255,255,0.05);
+}

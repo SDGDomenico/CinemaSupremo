@@ -1,0 +1,28 @@
+.card {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 6px 20px rgba(0,0,0,.6);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 0 30px color-mix(in srgb, var(--main-color) 55%, #000);
+}
+
+.card img {
+    max-width: 200px;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #aaa;
+}

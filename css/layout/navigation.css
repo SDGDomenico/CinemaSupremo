@@ -1,0 +1,29 @@
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.menu a {
+    color: #ddd;
+    text-decoration: none;
+    position: relative;
+    padding: 5px 0;
+    transition: color 0.3s;
+}
+
+.menu a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--main-color);
+    transition: width 0.3s;
+}
+
+.menu a:hover::after,
+.menu a.active::after {
+    width: 100%;
+}

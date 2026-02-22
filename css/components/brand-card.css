@@ -1,0 +1,25 @@
+.home-brands {
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 0 20px;
+    display: grid;
+    gap: 40px;
+}
+
+.brand-card {
+    background-color: #141414;
+    border-radius: 20px;
+    padding: 50px 40px;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 10px 30px rgba(0,0,0,.6);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.brand-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 40px rgba(0,0,0,.7);
+}
+
+.brand-card.marvel { border-left: 6px solid #e23636; }
+.brand-card.dc     { border-left: 6px solid #1e90ff; }

@@ -1,0 +1,28 @@
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #121212;
+    padding: 15px 30px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.9);
+    z-index: 1000;
+}
+
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    color: #fff;
+    font-size: 1.8rem;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.logo a:hover {
+    color: var(--main-color);
+}
