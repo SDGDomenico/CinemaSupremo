@@ -1,12 +1,7 @@
-/* ============================= */
-/* CONFIG BASE                   */
-/* ============================= */
+
 const brand = document.body.dataset.brand;
 const container = document.getElementById("releases-container");
 
-/* ============================= */
-/* FETCH DATI E INIZIALIZZA      */
-/* ============================= */
 fetch(`data/${brand}.json`)
     .then(res => res.json())
     .then(data => {
@@ -20,17 +15,11 @@ fetch(`data/${brand}.json`)
     })
     .catch(err => console.error("Errore nel fetch dei dati:", err));
 
-/* ============================= */
-/* HERO                          */
-/* ============================= */
 function setHero(data) {
     document.getElementById("hero-title").textContent = data.heroTitle;
     document.getElementById("hero-text").textContent = data.heroText;
 }
 
-/* ============================= */
-/* RAGGRUPPA RELEASES PER ANNO   */
-/* ============================= */
 function groupByYear(releases) {
     const grouped = {};
 
@@ -42,9 +31,6 @@ function groupByYear(releases) {
     return grouped;
 }
 
-/* ============================= */
-/* RENDER RELEASES NEL DOM       */
-/* ============================= */
 function renderReleases(grouped) {
     Object.keys(grouped)
         .sort((a, b) => a - b)
@@ -61,9 +47,6 @@ function renderReleases(grouped) {
         });
 }
 
-/* ============================= */
-/* TEMPLATE CARD                 */
-/* ============================= */
 function createCard(item) {
     return `
         <a
@@ -78,9 +61,6 @@ function createCard(item) {
     `;
 }
 
-/* ============================= */
-/* FILTRI                        */
-/* ============================= */
 function initFilters() {
     const buttons = document.querySelectorAll(".filters button");
     const yearGroups = document.querySelectorAll(".year-group");
@@ -112,9 +92,6 @@ function initFilters() {
     });
 }
 
-/* ============================= */
-/* UTILS                         */
-/* ============================= */
 function slugify(text) {
     return text.toLowerCase().replace(/[^\w]+/g, "-").replace(/^-|-$/g, "");
 }

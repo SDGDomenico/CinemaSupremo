@@ -1,6 +1,3 @@
-/* ============================= */
-/* AGGIORNA ANNO E DATA          */
-/* ============================= */
 (function updateFooterDates() {
     const yearSpan = document.getElementById("year");
     const updatedSpan = document.getElementById("updated-date");

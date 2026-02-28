@@ -27,6 +27,20 @@
         z-index: 2000;
     }
 
+    #authLinks {
+        display: flex !important;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #authLinks li {
+        width: 100%;
+    }
+
+    #authLinks a {
+        display: block;
+    }
+
     .menu.show {
         display: flex !important;
     }

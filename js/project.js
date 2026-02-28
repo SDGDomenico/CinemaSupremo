@@ -1,23 +1,14 @@
-/* ============================= */
-/* PARAMETRI URL                 */
-/* ============================= */
 const params = new URLSearchParams(window.location.search);
 const brand = params.get("brand");
 const type = params.get("type");
 const titleParam = params.get("title");
 
-/* ============================= */
-/* VALIDAZIONE INIZIALE          */
-/* ============================= */
 if (!brand || !type || !titleParam) {
     render404();
 } else {
     initPage();
 }
 
-/* ============================= */
-/* INIZIALIZZAZIONE PAGINA       */
-/* ============================= */
 function initPage() {
     if (!["marvel", "dc"].includes(brand) || !["movie", "show"].includes(type)) {
         render404();
@@ -50,9 +41,6 @@ function initPage() {
         .catch(() => render404());
 }
 
-/* ============================= */
-/* RENDER PROGETTO               */
-/* ============================= */
 function renderProject(project) {
     document.title = `CinemaSupremo - ${project.title}`;
 
@@ -85,9 +73,6 @@ function renderProject(project) {
     `;
 }
 
-/* ============================= */
-/* PAGINA 404                    */
-/* ============================= */
 function render404() {
     document.title = "Errore 404 – Pagina non trovata | CinemaSupremo";
 
@@ -111,9 +96,6 @@ function render404() {
     setTimeout(() => window.location.href = "https://sdgdomenico.github.io/CinemaSupremo", 5000);
 }
 
-/* ============================= */
-/* MENU ATTIVO                   */
-/* ============================= */
 function setActiveMenu(brand) {
     document.querySelectorAll(".menu a").forEach(link => {
         const href = link.getAttribute("href");
@@ -123,9 +105,6 @@ function setActiveMenu(brand) {
     });
 }
 
-/* ============================= */
-/* UTILS                         */
-/* ============================= */
 function slugify(text) {
     return text.toLowerCase().replace(/[^\w]+/g, "-").replace(/^-|-$/g, "");
 }
