@@ -3,7 +3,7 @@ import { createUserWithEmailAndPassword, onAuthStateChanged } from "https://www.
 
 onAuthStateChanged(auth, (user) => {
   if (user) {
-    window.location.href = "index";
+    window.location.href = "https://sdgdomenico.github.io/CinemaSupremo/";
   }
 });
 

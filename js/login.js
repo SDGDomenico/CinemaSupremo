@@ -3,7 +3,7 @@ import { signInWithEmailAndPassword, onAuthStateChanged } from "https://www.gsta
 
 onAuthStateChanged(auth, (user) => {
   if (user) {
-    window.location.href = "index";
+    window.location.href = "https://sdgdomenico.github.io/CinemaSupremo/";
   }
 });
 
