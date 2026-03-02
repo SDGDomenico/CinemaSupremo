@@ -2,39 +2,41 @@ import { auth } from "./firebase.js";
 import { signInWithEmailAndPassword, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
 
 onAuthStateChanged(auth, (user) => {
-  if (user) {
-    window.location.href = "https://sdgdomenico.github.io/CinemaSupremo/";
-  }
+  if (user) window.location.href = "profile";
 });
 
-const loginForm = document.getElementById("loginForm");
-const loginError = document.getElementById("loginError");
+const form = document.getElementById("loginForm");
+const errorEl = document.getElementById("loginError");
 
-if (loginForm) {
-  loginForm.addEventListener("submit", (e) => {
+if (form) {
+  form.addEventListener("submit", (e) => {
     e.preventDefault();
-    loginError.textContent = "";
+    errorEl.textContent = "";
 
     const email = document.getElementById("email").value;
     const password = document.getElementById("password").value;
 
     signInWithEmailAndPassword(auth, email, password)
-      .then((userCredential) => {
-        window.location.href = "index";
+      .then(() => {
+        window.location.href = "profile";
       })
       .catch((error) => {
         switch (error.code) {
           case "auth/user-not-found":
-            loginError.textContent = "Account non trovato!";
+          case "auth/invalid-credential":
+            errorEl.textContent = "Email o password errati.";
             break;
           case "auth/wrong-password":
-            loginError.textContent = "Password errata!";
+            errorEl.textContent = "Password errata.";
             break;
           case "auth/invalid-email":
-            loginError.textContent = "Email non valida!";
+            errorEl.textContent = "Email non valida.";
+            break;
+          case "auth/too-many-requests":
+            errorEl.textContent = "Troppi tentativi. Riprova più tardi.";
             break;
           default:
-            loginError.textContent = "Errore durante l'accesso!";
+            errorEl.textContent = "Errore durante l'accesso.";
         }
       });
   });

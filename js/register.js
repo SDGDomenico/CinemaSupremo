@@ -1,40 +1,55 @@
-import { auth } from "./firebase.js";
+import { auth, db } from "./firebase.js";
 import { createUserWithEmailAndPassword, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
+import { doc, setDoc } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
+
+let registrationInProgress = false;
 
 onAuthStateChanged(auth, (user) => {
-  if (user) {
-    window.location.href = "https://sdgdomenico.github.io/CinemaSupremo/";
+  if (user && !registrationInProgress) {
+    window.location.href = "home";
   }
 });
 
-const registerForm = document.getElementById("registerForm");
-const registerError = document.getElementById("registerError");
+const form = document.getElementById("registerForm");
+const errorEl = document.getElementById("registerError");
 
-if (registerForm) {
-  registerForm.addEventListener("submit", (e) => {
+if (form) {
+  form.addEventListener("submit", (e) => {
     e.preventDefault();
-    registerError.textContent = "";
+    errorEl.textContent = "";
 
     const email = document.getElementById("email").value;
     const password = document.getElementById("password").value;
 
+    registrationInProgress = true;
+
     createUserWithEmailAndPassword(auth, email, password)
       .then((userCredential) => {
-        window.location.href = "index";
+        const user = userCredential.user;
+        return setDoc(doc(db, "users", user.uid), {
+          email: user.email,
+          registratoIl: new Date().toISOString(),
+          ultimoAccesso: new Date().toISOString()
+        });
+      })
+      .then(() => {
+        registrationInProgress = false;
+        window.location.href = "profile";
       })
       .catch((error) => {
+        registrationInProgress = false;
         switch (error.code) {
           case "auth/email-already-in-use":
-            registerError.textContent = "Account già registrato!";
+            errorEl.textContent = "Esiste già un account con questa email.";
             break;
           case "auth/invalid-email":
-            registerError.textContent = "Email non valida!";
+            errorEl.textContent = "Email non valida.";
             break;
           case "auth/weak-password":
-            registerError.textContent = "La password deve essere lunga almeno 6 caratteri!";
+            errorEl.textContent = "La password deve essere di almeno 6 caratteri.";
             break;
           default:
-            registerError.textContent = "Errore nella registrazione!";
+            errorEl.textContent = "Errore durante la registrazione.";
         }
       });
   });

@@ -1,0 +1,85 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  padding: 48px 24px 80px;
+}
+
+.form-container form {
+  width: 100%;
+  max-width: 400px;
+  background: var(--surface-1);
+  border: 1px solid var(--line-lo);
+  border-radius: var(--r-xl);
+  padding: 52px 44px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  animation: fadeUp var(--dur-slow) var(--ease) both;
+}
+
+.form-container form h2 {
+  font-size: 2rem;
+  color: var(--text-hi);
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 14px 18px;
+  background: var(--surface-2);
+  border: 1px solid var(--line-mid);
+  border-radius: var(--r-md);
+  color: var(--text-hi);
+  font-size: 0.9rem;
+  font-weight: 300;
+  transition: border-color var(--dur-fast) var(--ease), box-shadow var(--dur-fast) var(--ease);
+}
+
+.form-container input::placeholder { color: var(--text-lo); }
+
+.form-container input:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-dim);
+}
+
+.form-container button[type="submit"] {
+  padding: 15px;
+  background: var(--accent);
+  color: var(--surface-0);
+  border-radius: var(--r-md);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: opacity var(--dur-fast) var(--ease), transform var(--dur-fast) var(--ease), box-shadow var(--dur-fast) var(--ease);
+}
+
+.form-container button[type="submit"]:hover {
+  opacity: 0.88;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px var(--accent-glow);
+}
+
+.form-container button[type="submit"]:active {
+  transform: translateY(0);
+}
+
+.error-message {
+  font-size: 0.8rem;
+  color: #e05252;
+  min-height: 18px;
+  text-align: center;
+}
+
+#loginError, #registerError {
+  color: #e05252;
+  font-size: 0.8rem;
+  min-height: 18px;
+  text-align: center;
+}

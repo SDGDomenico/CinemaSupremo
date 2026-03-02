@@ -1,0 +1,88 @@
+.home-brands {
+  max-width: 960px;
+  margin-inline: auto;
+  padding: 64px 40px 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.brand-card {
+  background: var(--surface-1);
+  border: 1px solid var(--line-lo);
+  border-radius: var(--r-xl);
+  padding: 56px 48px;
+  position: relative;
+  overflow: hidden;
+  transition: transform var(--dur-mid) var(--ease), box-shadow var(--dur-mid) var(--ease), border-color var(--dur-mid) var(--ease);
+  animation: fadeUp var(--dur-slow) var(--ease) both;
+}
+
+.brand-card:nth-child(2) { animation-delay: 80ms; }
+
+.brand-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity var(--dur-mid) var(--ease);
+  pointer-events: none;
+}
+
+.brand-card.marvel {
+  border-top: 2px solid #e53935;
+}
+.brand-card.marvel::before {
+  background: radial-gradient(ellipse 90% 60% at 50% 110%, rgba(229,57,53,0.13), transparent);
+}
+.brand-card.marvel:hover {
+  border-color: #e53935;
+  box-shadow: var(--shadow-lg), 0 0 48px rgba(229,57,53,0.18);
+}
+
+.brand-card.dc {
+  border-top: 2px solid #1e88e5;
+}
+.brand-card.dc::before {
+  background: radial-gradient(ellipse 90% 60% at 50% 110%, rgba(30,136,229,0.13), transparent);
+}
+.brand-card.dc:hover {
+  border-color: #1e88e5;
+  box-shadow: var(--shadow-lg), 0 0 48px rgba(30,136,229,0.18);
+}
+
+.brand-card:hover {
+  transform: translateY(-8px);
+}
+
+.brand-card:hover::before { opacity: 1; }
+
+.brand-card h3 {
+  font-size: 2.8rem;
+  margin-bottom: 14px;
+  position: relative;
+}
+
+.brand-card.marvel h3 { color: #e53935; }
+.brand-card.dc h3     { color: #1e88e5; }
+
+.brand-card p {
+  font-size: 0.88rem;
+  color: var(--text-mid);
+  line-height: 1.75;
+  margin-bottom: 32px;
+  font-weight: 300;
+  position: relative;
+}
+
+.brand-card span {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text-lo);
+  position: relative;
+  transition: color var(--dur-fast) var(--ease);
+}
+
+.brand-card:hover span { color: var(--text-mid); }

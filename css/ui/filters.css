@@ -1,0 +1,33 @@
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding: 36px 40px 0;
+}
+
+.filters button {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 7px 20px;
+  border-radius: var(--r-pill);
+  border: 1px solid var(--line-mid);
+  color: var(--text-mid);
+  cursor: pointer;
+  transition: all var(--dur-fast) var(--ease);
+}
+
+.filters button:hover {
+  color: var(--text-hi);
+  border-color: color-mix(in srgb, var(--accent) 45%, transparent);
+  background: var(--accent-dim);
+}
+
+.filters button.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--surface-0);
+  font-weight: 600;
+}
